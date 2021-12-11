@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { centerIt, columnIt, sectionIt } from '../globalStyles'
+import { centerIt, columnIt, sectionIt, mainColor } from '../globalStyles'
 
 const Container = styled.div`
 ${sectionIt};
@@ -56,6 +56,9 @@ align-items: center;
 const SubTitle = styled.h2`
 font-size: 35px;
 font-weight: 400;
+margin-bottom: 10px;
+letter-spacing: 2px;
+color: ${mainColor};
 `
 
 const Title = styled.h1`

@@ -2,7 +2,7 @@ import { css } from "styled-components";
 
 export const mainColor = () => {
   return css`
-    cyan
+    #01acac
     `;
 };
 
