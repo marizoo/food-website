@@ -55,7 +55,7 @@ const DescMid = styled.p`
 `
 
 const Backdrop = styled.div`
-background-color: yellow;
+background-color: #ffc219;
 height: 700px;
 width: 600px;
 position: absolute;

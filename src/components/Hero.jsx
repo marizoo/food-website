@@ -24,8 +24,11 @@ justify-content: space-between;
 `
 
 const Logo = styled.span`
-font-size: 30px;
-margin-left: 30px;
+font-size: 60px;
+margin-left: 50px;
+margin-top: 50px;
+font-weight: 600;
+opacity: .85;
 `
 
 const NavLink = styled.span`
@@ -38,7 +41,7 @@ const Hero = () => {
         <Cont>
             <HeroImg src="https://images.pexels.com/photos/10213680/pexels-photo-10213680.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260s"/>
             <Navbar>
-                <Logo>Nomnom.</Logo>
+                <Logo>Nomnom</Logo>
                 <NavLink>Home</NavLink>
             </Navbar>
             

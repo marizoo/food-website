@@ -26,7 +26,7 @@ top: 30px;
 right:400px;
 width: 460px;
 height: 700px;
-background: yellow;
+background: #ffc219;
 `
 
 
