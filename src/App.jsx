@@ -1,4 +1,5 @@
 import About from "./sections/About";
+import Contact from "./sections/Contact";
 import History from "./sections/History";
 import MainPage from "./sections/MainPage";
 import Services from "./sections/Services";
@@ -12,6 +13,7 @@ const App = () => {
     <About />
     <Services />
     <Where />
+    <Contact />
   </div>
   )};
 
