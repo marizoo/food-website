@@ -1,3 +1,3 @@
-a WHAT website created with React + styled component
-+ using WHAT...
-![Screenshot of the site](./screenshots/Agensy-website-800.png)
+a Travel AGency website created with React + styled component
+
+![Screenshot of the site](./screenshots/16.travel-agency-400.png)
