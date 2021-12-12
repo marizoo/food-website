@@ -1,3 +1,4 @@
+import Navbar from "./components/Navbar";
 import About from "./sections/About";
 import Contact from "./sections/Contact";
 import History from "./sections/History";
@@ -8,6 +9,7 @@ import Where from "./sections/Where";
 const App = () => {
   return (
   <div>
+    <Navbar />
     <MainPage />
     <History />
     <About />

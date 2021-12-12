@@ -56,6 +56,7 @@ font-size: 30px;
 font-weight: 400;
 letter-spacing: 2px;
 color: ${mainColor};
+margin-top: 50px;
 `
 
 
@@ -78,7 +79,7 @@ const MainPage = () => {
                 <TextWrapper>
                     <SubTitle>#hellobabes</SubTitle>
                     <Title>Welcome</Title>
-                    <Desc>Ladipisicing elit. Aut iste aspernatur saepe rem, rerum. architecto repudiandae modi quos sapiente assumenda consectetur nesciunt. Ipsum, impedit.</Desc>
+                    <Desc>Ladipisicing elit. Aut iste aspernatur saepe rem, rerum. architecto repudiandae modi quos sapiente assumenda consectetur nesciunt. </Desc>
                 </TextWrapper>
             </TextContainer>
             <EmptyContainer></EmptyContainer>
