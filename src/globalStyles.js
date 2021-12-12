@@ -12,6 +12,18 @@ export const secondaryColor = () => {
     `;
 };
 
+export const buttonIt = () => {
+  return css`
+    padding: 10px;
+    border: none;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    width: 55%;
+    margin-top: 20px;
+  `;
+};
+
 export const sectionIt = () => {
   return css`
     width: 100vw;

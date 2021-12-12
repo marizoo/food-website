@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { centerIt, columnIt, sectionIt, mainColor } from '../globalStyles'
+import { centerIt, columnIt, sectionIt, mainColor, buttonIt } from '../globalStyles'
 
 const Container = styled.div`
 ${sectionIt};
@@ -63,14 +63,18 @@ color: ${mainColor};
 
 const Title = styled.h1`
 font-size: 70px;
-margin-bottom: 40px;
-
+margin-bottom: 30px;
 `
 
 const Desc = styled.p`
 text-align: center;
 font-size: 20px;
 line-height: 40px;
+margin-bottom: 20px;
+`
+const Button = styled.button`
+${buttonIt};
+background-color: black;
 `
 
 const About = () => {
@@ -82,9 +86,10 @@ const About = () => {
             <EmptyContainer></EmptyContainer>
             <TextContainer>
                 <TextWrapper>
-                    <SubTitle>#project100daysoffun</SubTitle>
+                    <SubTitle>#projecttracks</SubTitle>
                     <Title>About Us</Title>
                     <Desc>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut iste aspernatur saepe rem, rerum Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta oribus quaerat corrupti. perspiciatis iure magni minima ad, similique, architecto repudiandae modi quos sapiente assumenda consectetur nesciunt. Ipsum, impedit.</Desc>
+                    <Button>Join our club</Button>
                 </TextWrapper>
             </TextContainer>
         </Container>
